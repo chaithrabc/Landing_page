@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SMART TV - Purchase</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="container">
+        <ul>
+          <li><img src="tv2-removebg-preview.png" width="80px"></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="details.html">Details</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <section class="purchase">
+    <div class="container">
+     
+      <form class="form1">
+        <h2>Complete Your Purchase</h2>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="address">Delivery Address:</label>
+          <textarea id="address" name="address" rows="4" cols="50" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" min="1" max="10" required>
+        </div>
+        <button type="submit" class="btn">Place Order</button>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 SMART TV. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
